@@ -1,0 +1,14 @@
+{
+  "orgName": "Demo company",
+  "edition": "Developer",
+  "hasSampleData": true,
+  "features": [],
+  "settings": {
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true
+    },
+    "mobileSettings": {
+      "enableS1EncryptedStoragePref2": false
+    }
+  }
+}

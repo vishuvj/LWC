@@ -1,0 +1,10 @@
+div{
+    color: red;
+    font-size: 30px;
+}
+#idDiv{
+    color: blue;
+}
+.classDiv{
+    color: yellow;
+}
