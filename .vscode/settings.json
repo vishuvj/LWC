@@ -4,5 +4,6 @@
         "Thakur",
         "udemy",
         "Vishal"
-    ]
+    ],
+    "salesforcedx-vscode-slds.enhancements.autoSuggest": true
 }
