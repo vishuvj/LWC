@@ -1,0 +1,16 @@
+<template>
+    <lightning-card title="Query Builder">
+        <lightning-layout>
+            <lightning-layout-item>
+        <lightning-combobox label="Select Object" data-value="{selectedObject}" options="{objectOptions}" onchange="{handleObjectChange}" ></lightning-combobox>
+        <lightning-combobox label="Select Field" data-value="{selectedField}" options="{fieldOptions}" onchange="{handleFieldChange}" ></lightning-combobox>
+        <lightning-combobox label="Select Operator" data-value="{selectedOperator}" options="{selectedOptions}" onchange="{handleOperatorChange}" ></lightning-combobox>
+        
+        <lightning-button label="Build Query" onClick={buildQuery}></lightning-button>
+    </lightning-layout-item>
+</lightning-layout>
+<template if:true={queryResult}>
+    <lightning-datatable data={queryResult} columns={columns} key-field="Id"></lightning-datatable>
+</template>
+</lightning-card>
+</template>
